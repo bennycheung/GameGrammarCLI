@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/GameGrammar-Logo-v1d.png" alt="GameGrammar Logo" width="200">
+</p>
+
 # GameGrammar
 
 Generative Ontology for Board Game Design using DSPy.
