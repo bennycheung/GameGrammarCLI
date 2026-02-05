@@ -1,0 +1,93 @@
+{
+  "title": "Celestial Clash",
+  "tagline": "An astronomical race to name the stars",
+  "theme": "The game takes place in an observatory, with players representing rival astronomers vying to be the first to identify and claim newly discovered celestial objects. The night sky above the observatory serves as the game board, with players moving their astronomer pawns around the different regions to survey the heavens.",
+  "theme_integration": "The theme of rival astronomers is deeply woven into the core mechanics of the game. The action point system, resource management, area control, hand management, and hidden information elements all directly reflect the challenges and strategic considerations faced by the astronomers as they race to survey the sky and claim celestial objects before their opponents. The bluffing and deduction aspects also capture the sense of mystery and competition as players try to outmaneuver each other.",
+  "game_type": "euro",
+  "complexity": "heavy",
+  "goal": "Be the first to achieve victory in The game takes place in an observatory, with players representing rival astronomers vying to be the first to identify and claim newly discovered celestial objects. The night sky above the observatory serves as the game board, with players moving their astronomer pawns around the different regions to survey the heavens.",
+  "end_condition": "Game ends when victory conditions are met",
+  "victory_condition": "Determined by action_points, resource_management",
+  "primary_mechanisms": [
+    "action_points",
+    "resource_management",
+    "area_control",
+    "hand_management",
+    "hidden_information"
+  ],
+  "secondary_mechanisms": [
+    "deduction",
+    "bluffing"
+  ],
+  "turn_structure": {
+    "phases": [
+      "Reveal New Celestial Objects",
+      "Spend Action Points",
+      "Manage Hand"
+    ],
+    "actions_per_turn": "On their turn, players can spend action points to perform a combination of the following actions: move their astronomer pawn, search the night sky to reveal new celestial objects, claim discovered objects, and manage their hand of discovery cards.",
+    "round_structure": null
+  },
+  "uncertainty_sources": [
+    "dice",
+    "cards",
+    "shuffle"
+  ],
+  "components": {
+    "board": "The game board will be a large, high-quality star chart or projection of the night sky, depicting the different regions of the observable universe. The board will be modular, with sections that can be rearranged or added/removed to adjust the size and complexity of the playing area.",
+    "board_type": "modular",
+    "cards": [
+      {
+        "name": "Discovery Cards",
+        "count": 80,
+        "purpose": "Represent newly discovered celestial objects that players can claim",
+        "unique": true
+      },
+      {
+        "name": "Telescope Action Cards",
+        "count": 20,
+        "purpose": "Provide special actions or abilities that players can use during their turns",
+        "unique": false
+      }
+    ],
+    "tokens": [
+      {
+        "name": "Claim Tokens",
+        "count": 60,
+        "purpose": "Used to mark discovered celestial objects on the board"
+      },
+      {
+        "name": "Resource Cubes",
+        "count": 100,
+        "purpose": "Represent observation time, funding, and other resources"
+      }
+    ],
+    "dice": [
+      {
+        "type": "6-sided",
+        "count": 4,
+        "purpose": "Used for resolving search actions to reveal new celestial objects"
+      }
+    ],
+    "other": [
+      "Astronomer pawns (4 unique designs)",
+      "Resource cubes (representing observation time, funding, etc.)",
+      "Claim tokens (to mark discovered celestial objects)",
+      "Storage tray for components"
+    ]
+  },
+  "players": {
+    "min_players": 2,
+    "max_players": 4,
+    "recommended": null,
+    "interaction": "competitive",
+    "roles": null,
+    "team_structure": null
+  },
+  "setup": "1. Assemble the modular star chart board and place it in the center of the play area. \n2. Shuffle the discovery cards and place them face-down on the board.\n3. Distribute the telescope action cards, resource cubes, claim tokens, and astronomer pawns to the players.\n4. Each player places their astronomer pawn on the starting space of the board.",
+  "core_loop": "Each turn: Reveal New Celestial Objects -> Spend Action Points -> Manage Hand",
+  "strategic_depth": "The combination of action points, resource management, area control, hand management, and hidden information creates a compelling race where players must carefully balance their options and outmaneuver their rivals to become the most renowned astronomer.",
+  "play_time_minutes": null,
+  "design_notes": null,
+  "agency_justification": "Players feel in control of their progress as they strategically allocate their limited action points and resources to optimize their discoveries and positioning. The hidden information and spatial element also create opportunities for clever plays and counterplays that give players a sense of agency."
+}
